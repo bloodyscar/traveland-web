@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22.5" viewBox="0 0 20 22.5">
+  <g id="Date" transform="translate(-319 -739.5)">
+    <g id="Rectangle_64" data-name="Rectangle 64" transform="translate(319 742)" fill="none" stroke="#0e2a3f" stroke-width="1">
+      <rect width="20" height="20" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_14" data-name="Line 14" x2="19" transform="translate(319.5 745.5)" fill="none" stroke="#0e2a3f" stroke-width="1"/>
+    <line id="Line_15" data-name="Line 15" y2="3" transform="translate(323.5 739.5)" fill="none" stroke="#0e2a3f" stroke-width="1"/>
+    <line id="Line_16" data-name="Line 16" y2="3" transform="translate(334.5 739.5)" fill="none" stroke="#0e2a3f" stroke-width="1"/>
+    <rect id="Rectangle_65" data-name="Rectangle 65" width="4" height="4" transform="translate(323 748)" fill="#0e2a3f"/>
+    <rect id="Rectangle_66" data-name="Rectangle 66" width="4" height="4" transform="translate(331 748)" fill="#0e2a3f"/>
+    <rect id="Rectangle_67" data-name="Rectangle 67" width="4" height="4" transform="translate(331 755)" fill="#0e2a3f"/>
+    <rect id="Rectangle_68" data-name="Rectangle 68" width="4" height="4" transform="translate(323 755)" fill="#0e2a3f"/>
+  </g>
+</svg>
