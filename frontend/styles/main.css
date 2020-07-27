@@ -1,0 +1,648 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("frontend/fonts/Poppins-Medium.ttf");
+  src: url("frontend/fonts/Poppins-Regular.ttf");
+  font-family: 'Montserrat';
+  src: url("frontend/fonts/Montserrat-Bold.ttf");
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-login {
+  background-color: #11389A;
+  color: #fff;
+  padding: 10px;
+}
+
+.btn-login:hover {
+  background-color: #1443B8;
+  color: #fff;
+}
+
+.navbar-light {
+  background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0E2A42 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #0E2A42 !important;
+}
+
+.navbar-detail {
+  background-color: #fff;
+}
+
+header {
+  padding: 177px 0 180px;
+  margin-top: -70px;
+  background-image: url("../images/header@2x.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #fff;
+}
+
+header .btn-join {
+  background-color: #11389A;
+  color: #fff;
+  padding: 11px 26px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+header .btn-join:hover {
+  background-color: #1443B8;
+  color: #fff;
+  padding: 11px 26px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.section-stats {
+  position: relative;
+  z-index: 2;
+  margin-top: -50px;
+  background-color: #fff;
+  border-radius: 50px 0 50px 0;
+  width: 65%;
+  margin-left: 184px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.section-stats .stats-detail span {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.most-popular {
+  min-height: 540px;
+  margin-top: -51px;
+  background-color: #0E2A42;
+  margin-bottom: -230px;
+}
+
+.most-popular .text-heading {
+  margin-top: 162px;
+  color: #fff;
+}
+
+.most-popular .text-heading h2 {
+  font-size: 2.3rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.most-popular .text-heading p {
+  font-weight: lighter;
+}
+
+.most-content .container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "item1 item2 item3" "item1 item4 item5";
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  row-gap: 19px;
+}
+
+.most-content .container .item1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: item1;
+}
+
+.most-content .container .item1 .card-travel {
+  border-radius: 5px;
+  min-height: 450px;
+  background-color: #000;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+.most-content .container .item1 .card-travel .travel-country {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.most-content .container .item1 .card-travel .travel-city {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.most-content .container .item1 .card-travel .travel-button .btn-travel-details {
+  margin-top: 290px;
+  background-color: #11389A;
+  color: #fff;
+}
+
+.most-content .container .item1 .card-travel .travel-button .btn-travel-details:hover {
+  background-color: #1443B8;
+  color: #fff;
+}
+
+.most-content .container .item2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: item2;
+}
+
+.most-content .container .item3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: item3;
+}
+
+.most-content .container .item4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: item4;
+}
+
+.most-content .container .item5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: item5;
+}
+
+.most-content .container .card-travell {
+  border-radius: 5px;
+  min-height: 216px;
+  background-color: #000;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.most-content .container .card-travell .travel-country {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.most-content .container .card-travell .travel-city {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.most-content .container .card-travell .travel-button .btn-travel-details {
+  margin-top: 75px;
+  background-color: #11389A;
+  color: #fff;
+}
+
+.most-content .container .card-travell .travel-button .btn-travel-details:hover {
+  background-color: #1443B8;
+  color: #fff;
+}
+
+.section-network {
+  margin-top: -140px;
+}
+
+.section-network .container .text-network h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #2457D7;
+}
+
+.section-network .container .text-network p {
+  font-weight: lighter;
+}
+
+.section-network .container img {
+  margin-top: -30px;
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d7e2fc));
+  background: linear-gradient(#fff 0%, #d7e2fc 100%);
+  padding-top: 50px;
+  min-height: 500px;
+  margin-top: 70px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #2457D7;
+}
+
+.section-testimonial-heading p {
+  font-weight: lighter;
+}
+
+.section-testimonial-content {
+  margin-top: -280px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 20px 10px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 38-px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content h4 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content .card-testimonial {
+  font-size: 1.1rem;
+  color: #6E6E6E;
+  font-weight: lighter;
+  min-height: 150px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-size: 1.3rem;
+  color: #0E2A42;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.btn-help {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+
+.btn-help:hover {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+
+.btn-get {
+  background-color: #11389A;
+  color: #fff;
+}
+
+.btn-get:hover {
+  background-color: #1443B8;
+  color: #fff;
+}
+
+.section-footer h5 {
+  color: #124571;
+}
+
+.section-footer a {
+  color: #124571;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #0E2A42;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item {
+  font-weight: lighter;
+  color: #fff;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #fff;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  color: #0E2A42;
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 16px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details h3 {
+  font-size: 17px;
+  color: #0E2A3F;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  border-radius: 5;
+  background-color: #2457D7;
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #4170E8;
+  color: #fff;
+}
+
+.section-details-content .card-details .total {
+  font-weight: bold;
+  color: #0E2A3F;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #0E2A3F;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0E2A3F;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #2457D7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #2457D7;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #4170E8;
+  color: #fff;
+}
+
+.section-details-content .trip-information th {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.section-details-content .trip-information td {
+  color: #AAAAAA;
+  font-size: 0.9rem;
+}
+
+.section-success {
+  height: 90vh;
+  margin-top: 70px;
+}
+
+.section-success h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #0E2A42;
+}
+
+.section-success p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  background-color: #2457D7;
+  color: #fff;
+  border-radius: 4;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #4170E8;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-stats {
+    margin-left: 80px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-stats {
+    margin-left: 50px;
+    width: 80%;
+  }
+  .most-content .container {
+    display: inherit;
+  }
+  .most-content .container .item1 {
+    display: none;
+  }
+  .most-content .container .item2 {
+    margin-bottom: 10px;
+  }
+  .most-content .container .item3 {
+    margin-bottom: 10px;
+  }
+  .most-content .container .item4 {
+    margin-bottom: 10px;
+  }
+  .most-content .container .item5 {
+    margin-bottom: 10px;
+  }
+  .section-network {
+    margin-top: 70px;
+  }
+  .section-footer img {
+    width: 100%;
+  }
+  .section-footer h5 {
+    font-size: 0.9rem;
+  }
+  .section-footer a {
+    font-size: 0.8rem;
+  }
+  .section-footer .featur {
+    display: none;
+  }
+  .section-footer .acc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-stats {
+    margin-left: 80px;
+    width: 70%;
+    background-color: unset;
+  }
+  .stats-detail h5 {
+    display: none;
+  }
+  .stats-detail img {
+    display: none;
+  }
+  .most-popular {
+    margin-bottom: -800px;
+  }
+  .most-content .container {
+    margin-left: 1px;
+    display: inherit;
+    margin-top: 650px;
+  }
+  .most-content .container .item1 {
+    display: none;
+  }
+  .most-content .container .item2 {
+    margin-bottom: 5px;
+  }
+  .most-content .container .item3 {
+    margin-bottom: 5px;
+  }
+  .most-content .container .item4 {
+    margin-bottom: 5px;
+  }
+  .most-content .container .item5 {
+    margin-bottom: 5px;
+  }
+  .section-network {
+    margin-top: 70px;
+  }
+  .section-footer img {
+    width: 100%;
+  }
+  .section-footer h5 {
+    font-size: 0.9rem;
+  }
+  .section-footer a {
+    font-size: 0.8rem;
+  }
+  .section-footer .copy-right {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
